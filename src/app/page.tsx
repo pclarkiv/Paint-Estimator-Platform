@@ -7,11 +7,11 @@ export default function Home() {
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold">Paint Estimator Platform</h1>
           <div className="space-x-4">
-            <Link href="/sign-in" className="btn bg-gray-800 hover:bg-gray-700 text-white">Sign In</Link>
-            <Link href="/sign-up" className="btn bg-gray-800 hover:bg-gray-700 text-white">Sign Up</Link>
+            <Link href="/sign-in" className="btn btn-primary">Sign In</Link>
+            <Link href="/sign-up" className="btn btn-secondary">Sign Up</Link>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card bg-base-200 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">Welcome!</h2>
             <p>Your AI-powered paint estimation platform is ready for use.</p>
