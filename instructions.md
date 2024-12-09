@@ -45,6 +45,13 @@ Tech Stack: Next.js, MongoDB, Clerk, Tailwind+DaisyUI, Fabric.js, PDF.js
 - Add surface classification
 - Build measurement validation
 
+### Epic: CV Enhancement
+
+- Integrate Azure Computer Vision/AWS Textract
+- Add automated wall detection
+- Implement symbol recognition
+- Create dimension extraction
+
 ### Epic: Estimation Engine
 
 - Create quantity calculator
@@ -57,7 +64,7 @@ Tech Stack: Next.js, MongoDB, Clerk, Tailwind+DaisyUI, Fabric.js, PDF.js
 ### Epic: UI/UX
 
 - Implement responsive dashboard
-- Add measurement interface
+- Add hybrid measurement interface (manual + AI)
 - Create cost summaries
 - Build export system
 
@@ -75,10 +82,12 @@ Tech Stack: Next.js, MongoDB, Clerk, Tailwind+DaisyUI, Fabric.js, PDF.js
 - MongoDB Atlas
 - AWS S3
 - OpenAI API
+- Computer Vision API (Azure/AWS)
 - Plausible Analytics
 - Mailgun
 - PDF.js & Fabric.js
 - DaisyUI Components
+- Queue System (Bull/Redis)
 
 ## Deployment
 
@@ -86,3 +95,4 @@ Tech Stack: Next.js, MongoDB, Clerk, Tailwind+DaisyUI, Fabric.js, PDF.js
 - Vercel hosting
 - Automated deployments
 - Environment variables
+- Queue worker setup
