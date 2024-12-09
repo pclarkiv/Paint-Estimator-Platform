@@ -65,7 +65,7 @@ Tech Stack: Next.js, MongoDB, Clerk, Tailwind+DaisyUI, Fabric.js, PDF.js
 
 - Implement responsive dashboard
 - Add hybrid measurement interface (manual + AI)
-- Create cost summaries
+- Create Cost summaries
 - Build export system
 
 ### Epic: Production Ready
