@@ -16,6 +16,11 @@ export default function Home() {
             <h2 className="card-title">Welcome!</h2>
             <p>Your AI-powered paint estimation platform is ready for use.</p>
             <p>Please sign in or create an account to get started.</p>
+            <div className="card-actions justify-end mt-4">
+              <Link href="/documents" className="btn btn-primary">
+                Upload Floor Plan
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -14,6 +14,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.709.0",
+    "@aws-sdk/s3-presigned-post": "^3.709.0",
     "@clerk/nextjs": "^6.8.0",
     "@types/node": "^22.10.1",
     "@types/react": "^19.0.0",
@@ -21,6 +23,7 @@
     "mongodb": "^6.11.0",
     "mongoose": "^8.8.4",
     "next": "^14.2.20",
+    "pdfjs-dist": "^4.9.155",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.7.2"
